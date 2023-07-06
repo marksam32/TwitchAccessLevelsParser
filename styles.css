@@ -1,0 +1,89 @@
+.title{
+    font-family: 'Special Elite', cursive;
+    font-size: 5rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: white;
+}
+
+table.container {
+    padding-top: 1rem;
+    margin: 0 auto;
+    border-spacing: 3rem;
+}
+
+
+table.container td{
+    color: white;
+    font-size: 3rem;
+    width: 33%;
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+}
+
+select {
+    height: 4rem;
+}
+
+.roleSelectorContainer {
+    padding-top: 1rem;
+    text-align: center;
+}
+
+select.roleSelector {
+    width: 30%;
+}
+
+select.streamerSelector {
+    width: 100%;
+}
+
+input {
+    font-size: 1rem;
+    font-family: 'Special Elite', bold;
+    background-color: rgba(0, 0, 0, 0.6);
+    
+}
+
+p {
+    font-family: 'Special Elite', cursive;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+body {
+    background-image: url(img/bg.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+a {
+    color: rgb(0, 102, 255);
+}
+
+.button {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.button button {
+    width: 10rem;
+    height: 5rem;
+    font-family: 'Special Elite', cursive;
+    font-size: 2rem;
+}
+
+.output {
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size: 2rem;
+    color: white;
+}
+
+.output:empty {
+    display: none;
+}
+
